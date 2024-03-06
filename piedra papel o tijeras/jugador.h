@@ -19,7 +19,7 @@ public:
 
     void elegirOpcion() {
         int opcionElegida;
-        std::cout << "Elige una opcion:\n1. Piedra\n2. Papel\n3. Tijera\n";
+        std::cout << "Elije una opcion:\n1. Piedra\n2. Papel\n3. Tijera\n"; //git
         std::cin >> opcionElegida;
 
         while (opcionElegida < 1 || opcionElegida > 3) {
@@ -30,4 +30,3 @@ public:
         setOpcion(Opciones(opcionElegida));
     }
 };
-
